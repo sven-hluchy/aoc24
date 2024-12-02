@@ -1,0 +1,1 @@
+lines».&{.split(/\s+/).map(*.Int).&{1 if 1 <= [1 if so all($_.cache.rotor(2=>-1).map:{abs(.[0]-.[1])}) <= 3 and ([<]($_.cache) or [>]($_)) for $_.cache.combinations.grep(*.elems >= $_.elems-1)].sum}}.sum.say
